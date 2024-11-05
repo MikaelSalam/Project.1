@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body{
+	    font: 400 15px/1.8 Lato, sans-serif;
+	    background-image: url('bg3.jpg');
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		margin: auto;
+		
+	}
+	.navbar{
+  font-family: cursive;
+    margin-bottom: 0;
+    background-color: black;
+    border: 0;
+    font-size: 17px !important;
+    letter-spacing: 4px;
+	opacity: 0.7;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: cyan !important;
+  }
+  .navbar-nav li a:hover {
+    color: cyan !important;
+  }
+  .navbar-nav li.active a {
+    color: cyan; !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  
+  .carousel-caption{
+    color: white;
+	position: center;
+	height: 90vh;
+	font-size: 20px;
+	text-shadow: 2px 2px 5px black;
+  }
+  .carousel ,h3{
+    size: 60px;
+    font-family: cursive;
+	letter-spacing: 4px;
+	color: white;
+	animation: colorChange 5s infinite alternate;
+        }
+        @keyframes colorChange {
+            0% { color: white; }
+            100% { color: cyan; }
+        }
+	footer {
+    background-color: black;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: cursive;
+  }  
+	
+  
+  </style>
+  
+  
+  </head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">FOC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Course</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="concepts.html">Concepts</a></li>
+        <li><a href="database.html">DataBase</a></li>
+		<li><a href="documentation.html">Documentation</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <h3 style="color:Cyan; font-size:40px;">Presentation</h3>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/12RzE4tMgpEBBkR5pJIpLEzUOTH8-teec/edit?usp=drive_link&ouid=112166340211640006948&rtpof=true&sd=true"></iframe>
+  </div>
+</div>
+
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Powerded By <a href="https://www.ubelearn.com/" data-toggle="tooltip" title="UB"> UB</a></p> 
+</footer>
+
+</body>
+</html>

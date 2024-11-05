@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ML</title>
+	<title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min"></script>
+<style>
+   body{
+	    font: 400 15px/1.8 Lato, sans-serif;
+	    background-image: url('bg7.jpeg');
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 80vh;
+		margin: auto;
+	}
+.carousel ,h3{
+    size: 60px;
+    font-family: cursive;
+	letter-spacing: 4px;
+	color: cyan;
+	animation: colorChange 5s infinite alternate;
+        }
+        @keyframes colorChange {
+            0% { color: cyan; }
+            100% { color: yellow; }
+        }
+  
+  .carousel-caption h3 {
+    color: #fff !important;
+	text-align: center-top;
+  }
+  .navbar {
+  font-family: cursive;
+    margin-bottom: 0;
+    background-color: black;
+    border: 0;
+    font-size: 17px !important;
+    letter-spacing: 4px;
+	opacity: 0.7;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: cyan !important;
+  }
+  .navbar-nav li a:hover {
+    color: cyan !important;
+  }
+  .navbar-nav li.active a {
+    color: cyan; !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+img {
+  float: right;
+}
+button{
+background-color: black;
+  border:2px solid red;
+  border-radius: 12px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">FOC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="project.html">Back to Project</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section>
+<center>
+<h3 style="font-size:50px;">A Simple Interactive Machine Language</h3>
+</center>
+
+<p>
+
+<img id="MLinstrucitons" src="MLblank.png" >
+
+
+<button class="button" onclick="document.getElementById('MLinstrucitons').src='ML1.png'; document.getElementById('Englishinstrucitons').src='EI1.png'">156C</button><br>
+<button class="button" onclick="document.getElementById('MLinstrucitons').src='ML2.png'; document.getElementById('Englishinstrucitons').src='EI2.png'">166D</button><br>
+<button class="button" onclick="document.getElementById('MLinstrucitons').src='ML3.png'; document.getElementById('Englishinstrucitons').src='EI3.png'">5056</button><br>
+<button class="button" onclick="document.getElementById('MLinstrucitons').src='ML4.png'; document.getElementById('Englishinstrucitons').src='EI4.png'">306E</button><br>
+<button class="button" onclick="document.getElementById('MLinstrucitons').src='ML5.png'; document.getElementById('Englishinstrucitons').src='EI5.png'">C000</button><br>
+<img id="Englishinstrucitons" src="" >
+
+
+
+</p>
+
+
+
+
+
+
+</body>
+</html>

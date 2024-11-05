@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html="en" data-bs-theme="dark">
+<head>
+<title>FoC</title>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme The Band</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min"></script>
+<style>
+   body{
+	    font: 400 15px/1.8 Lato, sans-serif;
+	    background-image: url('bg7.jpeg');
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 80vh;
+		margin: auto;
+	}
+.carousel ,h3{
+    size: 60px;
+    font-family: cursive;
+	letter-spacing: 4px;
+	color: cyan;
+	animation: colorChange 5s infinite alternate;
+        }
+        @keyframes colorChange {
+            0% { color: cyan; }
+            100% { color: yellow; }
+        }
+  
+  .carousel-caption h3 {
+    color: #fff !important;
+	text-align: center-top;
+  }
+  .navbar {
+  font-family: cursive;
+    margin-bottom: 0;
+    background-color: black;
+    border: 0;
+    font-size: 17px !important;
+    letter-spacing: 4px;
+	opacity: 0.7;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: cyan !important;
+  }
+  .navbar-nav li a:hover {
+    color: cyan !important;
+  }
+  .navbar-nav li.active a {
+    color: cyan; !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  footer {
+    background-color: black;
+    color: #f5f5f5;
+    padding: 52px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">FOC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="project.html">Back to Project</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<center>
+<h3 style="font-size: 40px;">NOT Gate Project.</h3>
+</center
+<div class="container md-7">
+  <div class="column" style="background-color:transparent;">
+    <h3>Input</h3>
+    <p><button style="width: 100px; height: 70px;" onclick="document.getElementById('belizeImage').src='noton2.png'">ON</button></p>
+    <p><button style="width: 100px; height: 70px;" onclick="document.getElementById('belizeImage').src='notoff2.png'">OFF</button></p>
+  </div>
+  <div class="column" style="background-color:transparent;">
+    <h3>Output</h3>
+	<hr>
+	<img id="belizeImage" src="noton2.png" alt="noton" width="450" height="100" align="center">
+  </div>
+</div>
+<footer class="text-center">
+  <a class="up-arrow" href="project.html" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Powerded By <a href="https://www.ubelearn.com/" data-toggle="tooltip" title="UB"> UB</a></p> 
+</footer>
+
+</body>
+</html>
+
